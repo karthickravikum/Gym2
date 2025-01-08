@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gym Login</title>
+    <link rel="stylesheet" href="gym.css">
+</head>
+<body class="main1">
+    <div class="main2">
+        <center>
+            <h1 class="h11">GYM MEMBERSHIP FORM</h1>
+            <form action="https://formspree.io/f/xovvpovk" method="post">
+                <table>
+                    <tr>
+                        <td><label for="Name">Name</label></td>
+                        <td><input type="text" name="Name" id="Name" placeholder="Enter Your Name" required class="in"></td>    
+                    </tr>
+                    <tr>
+                        <td><label for="number">Phone Number</label></td>
+                        <td><input type="number" name="number" id="number" placeholder="Enter Your Ph No" required class="in"></td>
+                    </tr>
+                    <br>
+                    <tr>
+                        <td><label for="email">Email</label></td>
+                        <td><input type="email" name="email" id="email" placeholder="Enter Your Email" required class="in"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="dob">Date Of Birth</label></td>
+                        <td><input type="date" id="dob" name="dob" class="in"></td>
+                    </tr>
+                    <tr>
+                        <td><label>Gender</label></td>
+                        <td class="in1">
+                            <input type="radio" value="Male" name="Gender">Male
+                            <input type="radio" value="Female" name="Gender">Female
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="Address">Address</label></td>
+                        <td class="in1"><textarea name="Address" id="Address"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td><label for="Weight">Weight</label></td>
+                        <td><input type="number" name="Weight" id="Weight" placeholder="Enter Your Weight" class="in"></td>
+                    </tr>
+                    <tr>
+                        <td><label>Membership Status</label></td>
+                        <td class="in1">
+                            <input type="radio" value="Yes" name="Membership">Yes
+                            <input type="radio" value="No" name="Membership">No
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="emergencyContactName">Emergency Contact Name</label></td>
+                        <td><input type="text" name="emergencyContactName" id="emergencyContactName" placeholder="Enter Emergency Contact Name" required class="in"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="emergencyContactNumber">Emergency Contact Number</label></td>
+                        <td><input type="number" name="emergencyContactNumber" id="emergencyContactNumber" placeholder="Enter Emergency Contact Number" required class="in"></td>
+                    </tr>
+                    <tr>
+                        <td><label>Preferred Workout Time</label></td>
+                        <td class="in1">
+                            <input type="radio" value="Morning" name="WorkoutTime">Morning
+                            <input type="radio" value="Afternoon" name="WorkoutTime">Afternoon
+                            <input type="radio" value="Evening" name="WorkoutTime">Evening
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="WorkoutType">Preferred Workout Type</label></td>
+                        <td>
+                            <select name="WorkoutType" id="WorkoutType" class="in">
+                                <option value="Cardio">Cardio</option>
+                                <option value="Strength Training">Strength Training</option>
+                                <option value="Yoga">Yoga</option>
+                                <option value="Crossfit">Crossfit</option>
+                                <option value="Other">Other</option>
+                            </select>
+                        </td>
+                    </tr>
+                </table>
+                <button type="submit" class="btn btn-primary butt">SUBMIT</button>
+            </form>
+        </center>
+    </div>
+</body>
+</html>

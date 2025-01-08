@@ -1,0 +1,54 @@
+.main1{
+    background-image: url('https://rukminim2.flixcart.com/image/850/1000/jqmnv680/poster/t/c/a/medium-pwl-gym-boxing-black-white-wall-poster-13-19-inches-matte-original-imaek7vyb34txyub.jpeg?q=90&crop=false');
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+}
+.main2{
+    background-color: rgb(161, 159, 159);
+    border-radius: 50px;
+    width: 500px;
+    height: 550px;
+    margin-left: 545px;
+    margin-top:80px;
+    margin-bottom: 10px;
+
+}
+.h11{
+    padding-top: 15px;
+}
+.in{
+    border-radius: 10px;
+    height: 20px;
+    width: 200px;
+    margin-left: 30px;
+}
+.butt{
+    width: 200px;
+    height: 50px;
+    color: white;
+    background-color:black;
+    border: none;
+    border-radius: 20px;
+}
+.in1{
+    padding-left: 30px;
+}
+
+.butt{
+    margin-top: 60px;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+button:hover {
+    background-color: #5990ca;
+    transform: scale(1.1);
+}
